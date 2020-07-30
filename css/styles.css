@@ -1,0 +1,27 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  border-top: 17px solid black;  
+}
+
+
+/*healpears*/
+.container{
+  width: 960px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+
