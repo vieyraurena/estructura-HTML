@@ -4,54 +4,58 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Creative Studio</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   <!--Container-->
-  <div> 
+  <div class="container"> 
     <!--header-->
-    <div>
-      <div> <img src="img/_assets/logo.png" alt="logo"></div>
-      <!--menú-->
-      <div>
-        <a href="">HOME</a>
-        <a href="">ABOUT US</a>
-        <a href="">PORTFOLIO</a>
-        <a href="">SERVICE</a>
-        <a href="">BLOG</a>
-        <a href="">CONTACT US</a>
+    <div id="header" class="clearfix">
+      <div class="logo"> <img src="img/_assets/logo.png" alt="logo"></div>
+      <!--nav-->
+      <div id="nav">
+        <a href="mailto:info@creativStudio.com" id="nav-email">info@creativStudio.com</a>  
+        <ul id="nav-list" class="clearfix">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">PORTFOLIO</a></li>
+          <li><a href="#">SERVICE</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">CONTACT US</a></li>
+        </ul>
       </div>
     </div>
-    <hr>
 
     <!--main-image-->
-    <div>
+    <div id="main-image">
       <img src="img/_assets/img.jpg" alt="imagen principal">
     </div>
-    <hr>
+    
 
     <!--info-content-->
-    <div>
+    <div id="info-content">
       <!--left-->
-      <div>
+      <div class="box">
         <h3><img src="img/_assets/arrow.png" alt="arrow"> ABOUT US</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas provident voluptatibus velit saepe sed ratione ipsam dolores, nobis a? Illo deleniti nulla explicabo quis suscipit optio, nihil amet ipsam incidunt!</p>
-        <a href="">READ</a>
+        <a href="#">READ</a>
       </div>
       <!--middle-->
-      <div>
+      <div class="box">
         <h3><img src="img/_assets/arrow.png" alt="arrow"> OUR BENEFITS</h3>
-        <p><img src="img/_assets/check.png" alt="check"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas provident voluptatibus velit saepe sed ratione ipsam dolores, nobis a? Illo deleniti nulla explicabo quis suscipit optio, nihil amet ipsam incidunt!</p>
-        <p><img src="img/_assets/check.png" alt="check"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas provident voluptatibus velit saepe sed ratione ipsam dolores, nobis a? Illo deleniti nulla explicabo quis suscipit optio, nihil amet ipsam incidunt!</p>
-        <p><img src="img/_assets/check.png" alt="check"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas provident voluptatibus velit saepe sed ratione ipsam dolores, nobis a? Illo deleniti nulla explicabo quis suscipit optio, nihil amet ipsam incidunt!</p>
+        <ul class="box-benefits-list">
+          <li><p><img src="img/_assets/check.png" alt="check"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas provident voluptatibus velit saepe sed ratione ipsam dolores, nobis a? Illo deleniti nulla explicabo quis suscipit optio, nihil amet ipsam incidunt!</p></li>
+          <li><p><img src="img/_assets/check.png" alt="check"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas provident voluptatibus velit saepe sed ratione ipsam dolores, nobis a? Illo deleniti nulla explicabo quis suscipit optio, nihil amet ipsam incidunt!</p></li>
+          <li><p><img src="img/_assets/check.png" alt="check"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas provident voluptatibus velit saepe sed ratione ipsam dolores, nobis a? Illo deleniti nulla explicabo quis suscipit optio, nihil amet ipsam incidunt!</p></li>
+        </ul>
       </div>
       <!--right-->
-      <div>
+      <div class="box">
         <h3><img src="img/_assets/arrow.png" alt="arrow"> TESTIMONIALS</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas provident voluptatibus velit saepe sed ratione ipsam dolores, nobis a? Illo deleniti nulla explicabo quis suscipit optio, nihil amet ipsam incidunt!</p>
-        <p><i>Lorem ipsum dolor sit amet consectetur</i></p>        
+        <span><i>Lorem ipsum dolor sit amet consectetur</i></span>        
       </div>      
     </div>
-    <hr>
 
     <!--portfolio-content-->
     <div>
@@ -61,7 +65,6 @@
       <a href=""><img src="img/_assets/portfolio-3.jpg" alt="Social Worthy"></a>
       <a href=""><img src="img/_assets/portfolio-4.jpg" alt="Best Moving"></a>
     </div>
-    <hr>
 
     <!--blog-->
     <div>
