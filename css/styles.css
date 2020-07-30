@@ -49,5 +49,21 @@ html{
   padding: 0;
 }
 
+#nav-list li {
+  float: left;
+}
+
+#nav li + li{
+  margin-left: 64px;
+}
+
+#nav-list a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fe9b00;
+  font-weight: bold;
+  font-size: 12px;
+}
+
 
 
