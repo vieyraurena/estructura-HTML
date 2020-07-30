@@ -21,7 +21,33 @@ html{
   display: table;
 }
 
+/*header*/
+.logo{
+  float: left;
+  width: 183px;
+  margin: 0 0 px;
+}
 
+#nav{
+  width: 655px;
+  float: right;
+  position: relative;
+}
+
+#nav-email{
+  text-decoration: none;
+  color: #999898;
+  font-size: 13px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#nav-list{
+  list-style: none;
+  margin: 45px 0 0 0;
+  padding: 0;
+}
 
 
 
