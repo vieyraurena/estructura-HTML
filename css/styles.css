@@ -21,6 +21,12 @@ html{
   display: table;
 }
 
+.block-border{
+  padding: 20px 0 15px;
+  border-bottom: 1px solid #c0c0c0;
+
+}
+
 /*header*/
 .logo{
   float: left;
