@@ -1,13 +1,28 @@
+/*globales*/
 body{
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
-}
-
-html{
   border-top: 17px solid black;  
 }
 
+h2{
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #090909;
+  border-bottom: 6px solid #090909;
+  padding-left: 29px;
+  padding-bottom: 12px;
+  background-image: url(../img/_assets/arrow.png);
+  background-repeat: no-repeat;
+  background-position: 0 7px;
+}
+
+p {
+  font-size: 12px;
+  line-height: 15px;
+  color: #5d5d5d;
+}
 
 /*healpears*/
 .container{
@@ -24,7 +39,28 @@ html{
 .block-border{
   padding: 20px 0 15px;
   border-bottom: 1px solid #c0c0c0;
+}
 
+
+.box-link-arrow {
+  padding-left: 23px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fe9b00;
+  position: relative;
+}
+
+.box-link-arrow:hover {
+  text-decoration: underline;
+} 
+
+.box-link-arrow img {
+  position: absolute;
+  width: 9px;
+  left: 0;
+  top: 4px;
 }
 
 /*header*/
@@ -69,6 +105,38 @@ html{
   color: #fe9b00;
   font-weight: bold;
   font-size: 12px;
+}
+
+/*main content*/
+
+.box {
+  width: 280px;
+  float: left;
+}
+
+
+.box + .box {
+  margin-left: 60px;
+}
+
+.box-benefits-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.box-benefits-list li {
+  padding-left: 30px;
+  background-image: url(../img/_assets/check.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.box-link {
+  font-size: 12px;
+  font-style: italic;
+  text-decoration: none;
+  color: #090909;
 }
 
 
