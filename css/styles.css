@@ -6,15 +6,25 @@ body{
   border-top: 17px solid black;  
 }
 
-h2{
-  text-transform: uppercase;
+h2{ 
   font-size: 18px;
-  color: #090909;
-  padding-left: 29px;
+  padding-left: 30px;
   padding-bottom: 12px;
+  background-position: 0 7px;
+}
+
+h3 {
+  font-size: 12px;
+  padding-left: 23px;
+  background-position: 0 5px;
+  background-size: 8px;
+}
+
+h2, h3 {
+  text-transform: uppercase;
+  color: #090909;
   background-image: url(../img/_assets/arrow.png);
   background-repeat: no-repeat;
-  background-position: 0 7px;
 }
 
 p {
@@ -154,6 +164,31 @@ p {
 
 .box-img + .box-img {
   margin-left: 34px;
+}
+
+/*blog-updates*/
+
+.updates{
+  width: 658px;
+  float: left;
+}
+
+.connect {
+  width: 220px;
+  float: right;
+  margin-left: 80px;
+}
+
+.connect a, .connect img {
+  display: block;
+}
+
+.connect-red{
+  float: left;
+}
+
+.connect-red + .connect-red {
+  margin-left: 15px;
 }
 
 
