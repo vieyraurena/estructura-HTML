@@ -1,0 +1,39 @@
+/*header*/
+.logo {
+  float: left;
+  width: 183px;
+  margin: 0 0 px; }
+
+#nav {
+ @include menu; }
+
+#nav-email {
+  @include transform;
+  color: #999898;
+  font-size: 13px;
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+#nav-list {
+  list-style: none;
+  margin: 45px 0 0 0;
+  padding: 0; 
+
+  li {
+  float: left; }
+  
+  li + li {
+  margin-left: 64px; }
+  
+  a {
+  @include transform;
+  text-transform: uppercase;
+  color: $second-color;
+  font-weight: bold;
+  font-size: $font; }
+  
+  a:hover {
+  color: $third-color; }
+  
+}

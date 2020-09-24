@@ -1,0 +1,39 @@
+/*info-content*/
+.box {
+  width: 280px;
+  float: left; }
+
+.box + .box {
+  margin-left: 60px; }
+
+.box-benefits-list {
+  list-style: none;
+  margin: 0;
+  padding: 0; 
+  
+  li {
+  padding-left: 30px;
+  background-image: url(../img/check.png);
+  background-repeat: no-repeat;
+  background-position: top left; }
+}
+
+
+.box-link {
+  font-size: $font;
+  font-style: italic;
+  @include transform;
+  color: $third-color; }
+
+/*portfolio-content*/
+.box-img {
+  width: 214.5px;
+  float: left; }
+
+.box-img {
+  a,  img {
+    display: block; }
+}
+
+.box-img + .box-img {
+  margin-left: 34px; }

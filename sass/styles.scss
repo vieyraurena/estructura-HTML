@@ -1,0 +1,44 @@
+/*settings*/
+@import 'config/settings';
+@import 'config/mixin';
+/*Partial*/
+@import 'partial/helpears';
+@import 'partial/header';
+@import 'partial/info-content';
+@import 'partial/blog-updates';
+@import 'partial/footer';
+
+/*globales*/
+body {
+  font-family: $general-font;
+  margin: 0;
+  padding: 0;
+  border-top: 17px solid $border-color; }
+
+h2 {
+  font-size: 18px;
+  padding-left: 30px;
+  padding-bottom: 12px;
+  background-position: 0 7px; }
+
+h3 {
+  font-size: 12px;
+  padding-left: 23px;
+  background-position: 0 5px;
+  background-size: 8px; }
+
+h2, h3 {
+  text-transform: uppercase;
+  color: $third-color;
+  background-image: url(../img/arrow.png);
+  background-repeat: no-repeat; }
+
+p {
+  font-size: 12px;
+  line-height: 15px;
+  color: $primary-color }
+
+
+
+
+
